@@ -32,7 +32,7 @@ stage('three'){
           agent {
             docker {
               resuseNode false
-              image 'ubuntu'
+              image 'windows'
             }
           }
           steps {
